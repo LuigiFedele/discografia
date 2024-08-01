@@ -1,0 +1,192 @@
+:root{
+    --color1: #204062;
+    --color2: #4f6c91;
+    --color3: #7d98c0;
+    --text-color: #EEEEEE;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+.title{
+    font-size: 32px;
+    color: var(--text-color);
+}
+
+
+h1{
+    color: var(--text-color);
+    font-size: 28px;
+    text-align: center;
+}
+  
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: var(--color2);
+    max-width: 50%;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+& button{
+    border-radius: 30px;
+    background-color: var(--color1);
+    height: 40px;
+    border: none;
+    font-weight: bold;
+    color: var(--text-color);
+    cursor: pointer;
+    font-size: 14px;
+}
+
+& button:hover {
+    opacity: 0.8;
+    transform: scale(1.03);
+}
+
+& input {
+    border: 1px solid var(--color1);
+    border-radius: 30px;
+    height: 40px;
+    background-color: var(--text-color);
+    font-size: 16px;
+    padding-left: 10px;
+    outline: none;
+}
+
+& select {
+    border: 1px solid var(--color1);
+    border-radius: 30px;
+    height: 40px;
+    background-color: var(--text-color);
+    font-size: 16px;
+    color: gray;
+    padding-left: 10px;
+    outline: none;
+}
+
+
+.Album {
+    margin-bottom: 20px;
+    margin: 10px;
+    background-color: var(--color3);
+    padding: 10px;
+    border-radius: 10px;
+    width: 400px;
+    max-width:50%;
+  }
+  
+  .AlbumHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .AlbumHeader p {
+    margin: 0;
+    color: var(--text-color);
+    font-weight: bold;
+    
+  }
+  
+  .AlbumHeader span {
+    font-weight: normal;
+  }
+  
+  .AlbumTracks {
+    margin-top: 10px;
+  }
+  
+  .Track {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 5px;
+  }
+  
+  .Track p {
+    margin: 0;
+    color: var(--text-color);
+    font-weight: normal;
+  }
+  
+  .DeleteButtonAlbum {
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    transform: scale(1.1);
+    margin-left: 5px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .DeleteButtonAlbum img {
+    width: 18px;
+    height: 18px;
+  }
+
+.DeleteButtonTrack{
+    background-color: var(--color1);
+    border: none;
+    cursor: pointer;
+    transform: scale(1.1);
+    margin-left: 5px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+}
+
+.DeleteButtonTrack img {
+    width: 18px;
+    height: 18px;
+}
+
+.Search {
+  margin-bottom: 5px;
+  margin: 5px;
+  background-color: var(--color3);
+  padding: 10px;
+  border-radius: 10px;
+  width: 400px;
+  max-width:50%;
+  display: flex;
+  align-items: center;
+
+& input{
+  width: calc(100% - 34px);
+  flex-grow: 1;
+  margin-right: 5px;
+  }
+}
+
+.SearchButton{
+  background-color: var(--color1);
+  border: none;
+  cursor: pointer;
+  transform: scale(1.1);
+  margin-left: 5px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+}

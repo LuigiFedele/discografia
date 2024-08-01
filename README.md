@@ -10,7 +10,7 @@
 
 ###
 
-<p align="left">1) Faça um clone desse repositório<br>2) Entre na pasta rodando <cd discografia-backend><br>3) Rode <php artisan serve> para iniciar o servidor backend<br>4) Entre na pasta rodando <cd .> e depois <cd discografia-frontend><br>5) Rode <npm start></p>
+<p align="left">1) Faça um clone desse repositório<br>2) Entre na pasta rodando 'cd discografia-backend'<br>3) Rode 'php artisan serve' para iniciar o servidor backend<br>4) Entre na pasta rodando 'cd ..' e depois 'cd discografia-frontend'<br>5) Rode 'npm start'</p>
 
 ###
 
